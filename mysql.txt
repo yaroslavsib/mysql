@@ -1,14 +1,14 @@
-CREATE DATABASE photo_;
+CREATE DATABASE photo_store;
 
 CREATE TABLE Users (user_id int not null primary key autoincrement,
 name varchar(20) not null);
 
-CREATE TABLE Photo (photo_id int not null,
+CREATE TABLE Photo (photo_id int not null primary key,
 photo_name, varchar(20) not null,
 id_own int not null,
 status varchar(20) not null);
 
-CREATE TABLE Album (Album_id int not null,
+CREATE TABLE Album (Album_id int not null primary key,
 album_name, varchar(20) not null,
 id_photo int not null,
 id_own int not null);
