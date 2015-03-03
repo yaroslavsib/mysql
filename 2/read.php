@@ -67,6 +67,14 @@
                             </label>
                         </div>
                       </div>
+                      <div class="control-group">
+                        <label class="control-label">Дата создания</label>
+                        <div class="controls">
+                            <label class="checkbox">
+                                <?php echo $data['date_time'];?>
+                            </label>
+                        </div>
+                      </div>
                         <div class="form-actions">
                           <a class="btn" href="index.php">Назад</a>
                        </div>

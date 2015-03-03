@@ -41,8 +41,8 @@
                       <input type="hidden" name="id" value="<?php echo $id;?>"/>
                       <p class="alert alert-error">Вы уверены, что хотите удалить продукт?</p>
                       <div class="form-actions">
-                          <button type="submit" class="btn btn-danger">В пекло</button>
-                          <a class="btn" href="index.php">О, Боже, нет!</a>
+                          <button type="submit" class="btn btn-danger">Да</button>
+                          <a class="btn" href="index.php">Нет</a>
                         </div>
                     </form>
                 </div>
